@@ -33,12 +33,13 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Navbar(props) {
   const classes = useStyles();
-  const [theme, setTheme] = React.useState("light");
+  const [navTheme, setNavTheme] = React.useState("light");
+  const { theme } = props;
 
   React.useEffect(() => {
-    setTheme(window.localStorage.getItem("theme"));
-    props.theme(window.localStorage.getItem("theme"));
-  });
+    setNavTheme(window.localStorage.getItem("theme"));
+    theme(window.localStorage.getItem("theme"));
+  }, [theme]);
 
   const handleDrawerOpen = () => {
     props.toggleSidebar(true);
@@ -50,14 +51,14 @@ export default function Navbar(props) {
 
   const handleDarkMode = () => {
     window.localStorage.setItem("theme", "dark");
-    setTheme("dark");
-    props.theme("dark");
+    setNavTheme("dark");
+    theme("dark");
   };
 
   const handleLightMode = () => {
     window.localStorage.setItem("theme", "light");
-    setTheme("light");
-    props.theme("light");
+    setNavTheme("light");
+    theme("light");
   };
 
   return (
@@ -86,13 +87,17 @@ export default function Navbar(props) {
             </Button>
           </Tooltip>
         </div>
-        <Tooltip title={theme === "light" ? "Dark Mode" : "Light Mode"}>
+        <Tooltip title={navTheme === "light" ? "Dark Mode" : "Light Mode"}>
           <IconButton
             className={classes.themeButton}
             aria-label="theme mode"
-            onClick={theme === "light" ? handleDarkMode : handleLightMode}
+            onClick={navTheme === "light" ? handleDarkMode : handleLightMode}
           >
-            {theme === "light" ? <Brightness4Icon /> : <BrightnessHighIcon />}
+            {navTheme === "light" ? (
+              <Brightness4Icon />
+            ) : (
+              <BrightnessHighIcon />
+            )}
           </IconButton>
         </Tooltip>
       </Toolbar>

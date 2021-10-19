@@ -1,8 +1,7 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
 import Navbar from "./Navbar";
 import Sidebar from "./Sidebar";
-import { Link, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import { Toolbar } from "@material-ui/core";
 import Particles from "react-tsparticles";
 import { ThemeProvider } from "@material-ui/core";
@@ -10,10 +9,7 @@ import { darkTheme, lightTheme } from "../theme";
 import GlobalStyles from "./GlobalStyles";
 import CssBaseline from "@material-ui/core/CssBaseline";
 
-const useStyles = makeStyles((theme) => ({}));
-
 export default function Layout() {
-  const classes = useStyles();
   const [sidebar, setSideBar] = React.useState(false);
   const [theme, setTheme] = React.useState(darkTheme);
 

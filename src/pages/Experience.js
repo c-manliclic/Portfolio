@@ -2,9 +2,6 @@ import { Helmet } from "react-helmet";
 import {
   Container,
   Typography,
-  List,
-  ListItem,
-  ListItemText,
   Card,
   Grid,
   CardContent,
