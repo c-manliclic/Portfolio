@@ -13,7 +13,9 @@ import EmailIcon from "@material-ui/icons/Email";
 import Anime from "react-anime";
 
 const useStyles = makeStyles((theme) => ({
-  container: {},
+  container: {
+    paddingBottom: 75,
+  },
 }));
 
 export default function Home() {
@@ -24,13 +26,29 @@ export default function Home() {
         <title>Colin</title>
       </Helmet>
 
-      <Container>
+      <Container className={classes.container}>
         <Anime opacity={[0, 1]} translateY={"1em"} delay={(e, i) => i * 1000}>
           <Typography variant="h1" paragraph style={{ fontWeight: 800 }}>
-            Hi! I'm Colin.
+            Hi, I'm Colin!
           </Typography>
-          <Typography variant="h5" paragraph style={{ fontWeight: 500 }}>
-            I'm a programming student.
+          <Typography variant="body1" paragraph style={{ fontWeight: 500 }}>
+            I'm a programming student who is knowledgeable in both front and
+            back-end languages and tools. I am also proficient in
+            object-oriented, software, client/server, and database development.
+          </Typography>
+          <Typography variant="body1" paragraph style={{ fontWeight: 500 }}>
+            Programming is constantly evolving and changing, so I believe my
+            most significant strength is learning and making myself comfortable
+            with new technologies. I also prioritize a team's success rather
+            than the individual because high morale can result in incredible
+            innovations.
+          </Typography>
+          <Typography variant="body1" paragraph style={{ fontWeight: 500 }}>
+            My portfolio showcases the skills I have learned over the years. As
+            well as awards, experiences, and projects.
+          </Typography>
+          <Typography variant="body1" paragraph style={{ fontWeight: 500 }}>
+            Welcome 😊
           </Typography>
           <Grid
             container

@@ -50,7 +50,7 @@ export default function Projects() {
                 <CardMedia
                   component="img"
                   height="175"
-                  image="assets\images\art.jpg"
+                  image={process.env.PUBLIC_URL + "/assets/images/art.jpg"}
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="h2">
@@ -85,7 +85,10 @@ export default function Projects() {
                 <CardMedia
                   component="img"
                   height="175"
-                  image="\assets\images\expressionTreeEval.jpg"
+                  image={
+                    process.env.PUBLIC_URL +
+                    "/assets/images/expressionTreeEval.jpg"
+                  }
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="h2">
@@ -118,7 +121,9 @@ export default function Projects() {
                 <CardMedia
                   component="img"
                   height="175"
-                  image="\assets\images\rideTheBus.jpg"
+                  image={
+                    process.env.PUBLIC_URL + "/assets/images/rideTheBus.jpg"
+                  }
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="h2">
@@ -151,7 +156,9 @@ export default function Projects() {
                 <CardMedia
                   component="img"
                   height="175"
-                  image="\assets\images\sprintCompass.jpg"
+                  image={
+                    process.env.PUBLIC_URL + "/assets/images/sprintCompass.jpg"
+                  }
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="h2">
