@@ -78,7 +78,7 @@ export default function Navbar(props) {
             <Button
               onClick={handleDrawerClose}
               {...{
-                to: "/portfolio",
+                to: "/",
                 component: Link,
                 className: classes.titleText,
               }}
