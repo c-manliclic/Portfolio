@@ -44,7 +44,8 @@ export default function Experience() {
               <Card variant="outlined" className={classes.card}>
                 <CardContent>
                   <Typography variant="h5" color="textPrimary" component="h2">
-                    Computer Programmer Analyst (4.07 GPA)
+                    Computer Programmer Analyst (4.08 GPA - President's Honour
+                    Roll)
                   </Typography>
                   <Typography color="textPrimary" variant="subtitle2">
                     Fanshawe College (Ontario College Advanced Diploma)

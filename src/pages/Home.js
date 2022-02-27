@@ -32,9 +32,9 @@ export default function Home() {
             Hi, I'm Colin!
           </Typography>
           <Typography variant="body1" paragraph style={{ fontWeight: 500 }}>
-            I'm a programming student who is knowledgeable in both front and
-            back-end languages and tools. I am also proficient in
-            object-oriented, software, client/server, and database development.
+            I'm a software developer who is knowledgeable in both front and
+            back-end languages and tools. I am proficient in object-oriented,
+            software, client/server, and database development.
           </Typography>
           <Typography variant="body1" paragraph style={{ fontWeight: 500 }}>
             Programming is constantly evolving and changing, so I believe my

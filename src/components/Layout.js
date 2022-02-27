@@ -93,7 +93,7 @@ export default function Layout() {
             number: {
               density: {
                 enable: true,
-                value_area: 10,
+                value_area: 26,
               },
               value: 1,
             },

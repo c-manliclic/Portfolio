@@ -204,7 +204,7 @@ export default function Projects() {
                       size="small"
                       color="inherit"
                       edge="start"
-                      href="https://github.com/c-manliclic"
+                      href="https://github.com/c-manliclic/c-manliclic.github.io"
                       target="_blank"
                     >
                       <GitHubIcon fontSize="large" />
