@@ -97,7 +97,7 @@ export default function Sidebar(props) {
         </List>
         <div className={classes.bottomPush}>
           <Typography variant="caption" color="textPrimary" component="p">
-            © 2021 - Colin Manliclic
+            © {new Date().getFullYear()} - Colin Manliclic
           </Typography>
         </div>
       </Drawer>

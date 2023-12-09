@@ -14,7 +14,7 @@ import Anime from "react-anime";
 
 const useStyles = makeStyles((theme) => ({
   container: {
-    paddingBottom: 75,
+    paddingBottom: 50,
   },
 }));
 
@@ -28,26 +28,26 @@ export default function Home() {
 
       <Container className={classes.container}>
         <Anime opacity={[0, 1]} translateY={"1em"} delay={(e, i) => i * 1000}>
-          <Typography variant="h1" paragraph style={{ fontWeight: 800 }}>
+          <Typography variant="h1" paragraph>
             Hi, I'm Colin!
           </Typography>
-          <Typography variant="body1" paragraph style={{ fontWeight: 500 }}>
+          <Typography variant="body1" paragraph>
             I'm a software developer who is knowledgeable in both front and
             back-end languages and tools. I am proficient in object-oriented,
             software, client/server, and database development.
           </Typography>
-          <Typography variant="body1" paragraph style={{ fontWeight: 500 }}>
+          <Typography variant="body1" paragraph>
             Programming is constantly evolving and changing, so I believe my
             most significant strength is learning and making myself comfortable
             with new technologies. I also prioritize a team's success rather
             than the individual because high morale can result in incredible
             innovations.
           </Typography>
-          <Typography variant="body1" paragraph style={{ fontWeight: 500 }}>
+          <Typography variant="body1" paragraph>
             My portfolio showcases the skills I have learned over the years. As
             well as awards, experiences, and projects.
           </Typography>
-          <Typography variant="body1" paragraph style={{ fontWeight: 500 }}>
+          <Typography variant="body1" paragraph>
             Welcome 😊
           </Typography>
           <Grid

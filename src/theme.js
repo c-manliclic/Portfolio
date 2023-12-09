@@ -4,9 +4,25 @@ const baseTheme = createTheme({
   typography: {
     fontFamily: ["Playfair Display", "sans-serif"].join(","),
     h1: {
-      "@media (max-width:600px)": {
-        fontSize: "3.1rem",
-      },
+      fontWeight: 800,
+    },
+    h2: {
+      fontWeight: 800,
+    },
+    h3: {
+      fontWeight: 800,
+    },
+    h4: {
+      fontWeight: 800,
+    },
+    h5: {
+      fontWeight: 800,
+    },
+    h6: {
+      fontWeight: 500,
+    },
+    body1: {
+      fontWeight: 500,
     },
   },
 });

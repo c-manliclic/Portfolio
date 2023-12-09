@@ -1,25 +1,53 @@
 import { Helmet } from "react-helmet";
-import {
-  Container,
-  Typography,
-  Card,
-  Grid,
-  CardContent,
-} from "@material-ui/core";
+import { Container, Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import Anime from "react-anime";
+import { generateExperienceCards } from "../helpers/ExperienceHelper";
 
 const useStyles = makeStyles((theme) => ({
-  card: {
-    backgroundColor: "transparent",
-  },
   container: {
-    paddingBottom: 75,
-  },
-  grid: {
-    marginBottom: 25,
+    paddingBottom: 50,
   },
 }));
+
+const ExperienceList = () => {
+  const experiences = [
+    {
+      title: "Software Developer",
+      organization: "Apparatus Global Solutions",
+    },
+    {
+      title: "Software Developer (Co-op)",
+      organization: "Apparatus Global Solutions",
+    },
+    {
+      title: "Computer Programmer Analyst (4.08 GPA - President's Honour Roll)",
+      organization: "Fanshawe College (Ontario College Advanced Diploma)",
+    },
+    {
+      title: "Peer Mentor",
+      organization: "Fanshawe College",
+    },
+    {
+      title: "Dean's Honour Roll 2018",
+      organization: "Fanshawe College",
+    },
+    {
+      title: "Dean's Honour Roll 2019",
+      organization: "Fanshawe College",
+    },
+    {
+      title: "Dean's Honour Roll 2020",
+      organization: "Fanshawe College",
+    },
+    {
+      title: "Dean's Honour Roll 2021",
+      organization: "Fanshawe College",
+    },
+  ];
+
+  return generateExperienceCards(experiences);
+};
 
 export default function Experience() {
   const classes = useStyles();
@@ -33,99 +61,7 @@ export default function Experience() {
           <Typography variant="h3" paragraph style={{ fontWeight: 800 }}>
             Experience
           </Typography>
-          <Grid
-            container
-            direction="column"
-            justifyContent="flex-start"
-            alignItems="stretch"
-            spacing={1}
-          >
-            <Grid item xs={12}>
-              <Card variant="outlined" className={classes.card}>
-                <CardContent>
-                  <Typography variant="h5" color="textPrimary" component="h2">
-                    Computer Programmer Analyst (4.08 GPA - President's Honour
-                    Roll)
-                  </Typography>
-                  <Typography color="textPrimary" variant="subtitle2">
-                    Fanshawe College (Ontario College Advanced Diploma)
-                  </Typography>
-                </CardContent>
-              </Card>
-            </Grid>
-            <Grid item xs={12}>
-              <Card variant="outlined" className={classes.card}>
-                <CardContent>
-                  <Typography variant="h5" color="textPrimary" component="h2">
-                    Software Developer (Co-op)
-                  </Typography>
-                  <Typography color="textPrimary" variant="subtitle2">
-                    Apparatus Global Solutions
-                  </Typography>
-                </CardContent>
-              </Card>
-            </Grid>
-            <Grid item xs={12}>
-              <Card variant="outlined" className={classes.card}>
-                <CardContent>
-                  <Typography variant="h5" color="textPrimary" component="h2">
-                    Peer Mentor
-                  </Typography>
-                  <Typography color="textPrimary" variant="subtitle2">
-                    Fanshawe College
-                  </Typography>
-                </CardContent>
-              </Card>
-            </Grid>
-            <Grid item xs={12}>
-              <Card variant="outlined" className={classes.card}>
-                <CardContent>
-                  <Typography variant="h5" color="textPrimary" component="h2">
-                    Dean's Honour Roll 2018
-                  </Typography>
-                  <Typography color="textPrimary" variant="subtitle2">
-                    Fanshawe College
-                  </Typography>
-                </CardContent>
-              </Card>
-            </Grid>
-            <Grid item xs={12}>
-              <Card variant="outlined" className={classes.card}>
-                <CardContent>
-                  <Typography variant="h5" color="textPrimary" component="h2">
-                    Dean's Honour Roll 2019
-                  </Typography>
-                  <Typography color="textPrimary" variant="subtitle2">
-                    Fanshawe College
-                  </Typography>
-                </CardContent>
-              </Card>
-            </Grid>
-            <Grid item xs={12}>
-              <Card variant="outlined" className={classes.card}>
-                <CardContent>
-                  <Typography variant="h5" color="textPrimary" component="h2">
-                    Dean's Honour Roll 2020
-                  </Typography>
-                  <Typography color="textPrimary" variant="subtitle2">
-                    Fanshawe College
-                  </Typography>
-                </CardContent>
-              </Card>
-            </Grid>
-            <Grid item xs={12}>
-              <Card variant="outlined" className={classes.card}>
-                <CardContent>
-                  <Typography variant="h5" color="textPrimary" component="h2">
-                    Dean's Honour Roll 2021
-                  </Typography>
-                  <Typography color="textPrimary" variant="subtitle2">
-                    Fanshawe College
-                  </Typography>
-                </CardContent>
-              </Card>
-            </Grid>
-          </Grid>
+          <ExperienceList />
         </Anime>
       </Container>
     </>
