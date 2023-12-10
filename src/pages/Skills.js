@@ -29,7 +29,6 @@ const BackEndSkillList = () => {
     { name: "ASP.NET", yearsOfExperience: "4 years of experience" },
     { name: "Java", yearsOfExperience: "2 years of experience" },
     { name: "C++", yearsOfExperience: "2 years of experience" },
-    { name: "Node.js", yearsOfExperience: "1 year of experience" },
   ];
   return generateSkillCards(backEndSkills);
 };
