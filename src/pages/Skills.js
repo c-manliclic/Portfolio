@@ -46,11 +46,11 @@ export default function Skills() {
             Skills
           </Typography>
           <Typography variant="h4" paragraph>
-            Front-End
+            Front-end
           </Typography>
           <FrontEndSkillList></FrontEndSkillList>
           <Typography variant="h4" paragraph style={{ marginTop: "50px" }}>
-            Back-End
+            Back-end
           </Typography>
           <BackEndSkillList></BackEndSkillList>
         </Anime>
