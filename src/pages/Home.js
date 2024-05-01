@@ -50,12 +50,7 @@ export default function Home() {
           <Typography variant="body1" paragraph>
             Welcome 😊
           </Typography>
-          <Grid
-            container
-            direction="row"
-            justify="flex-start"
-            alignItems="center"
-          >
+          <Grid container direction="row" alignItems="center">
             <Tooltip title="Github">
               <IconButton
                 size="small"
