@@ -4,6 +4,8 @@
   "private": false,
   "homepage": "https://c-manliclic.github.io/",
   "dependencies": {
+    "ip": ">=1.1.9",
+    "ws": ">=7.5.10",
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
     "@testing-library/jest-dom": "^5.12.0",
@@ -47,6 +49,8 @@
     ]
   },
   "devDependencies": {
+    "ip": ">=1.1.9",
+    "ws": ">=7.5.10",
     "gh-pages": "^6.1.1"
   }
 }
