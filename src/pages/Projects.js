@@ -58,7 +58,7 @@ export default function Projects() {
         <title>Projects | Colin</title>
       </Helmet>
       <Container className={classes.container}>
-        <Anime opacity={[0, 1]} translateY={"1em"} delay={(e, i) => i * 1000}>
+        <Anime opacity={[0, 1]} translateY={"2em"} delay={(e, i) => i * 500}>
           <Typography variant="h3" paragraph>
             Projects
           </Typography>

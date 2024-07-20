@@ -25,8 +25,9 @@ const FrontEndSkillList = () => {
 const BackEndSkillList = () => {
   const backEndSkills = [
     { name: "C#", yearsOfExperience: "4 years of experience" },
-    { name: "SQL", yearsOfExperience: "4 year of experience" },
     { name: "ASP.NET", yearsOfExperience: "4 years of experience" },
+    { name: "SQL", yearsOfExperience: "4 years of experience" },
+    { name: "Azure", yearsOfExperience: "2 years of experience" },
     { name: "Java", yearsOfExperience: "2 years of experience" },
     { name: "C++", yearsOfExperience: "2 years of experience" },
   ];
@@ -41,7 +42,7 @@ export default function Skills() {
         <title>Skills | Colin</title>
       </Helmet>
       <Container className={classes.container}>
-        <Anime opacity={[0, 1]} translateY={"1em"} delay={(e, i) => i * 1000}>
+        <Anime opacity={[0, 1]} translateY={"2em"} delay={(e, i) => i * 500}>
           <Typography variant="h3" paragraph>
             Skills
           </Typography>
@@ -49,7 +50,7 @@ export default function Skills() {
             Front-end
           </Typography>
           <FrontEndSkillList></FrontEndSkillList>
-          <Typography variant="h4" paragraph style={{ marginTop: "50px" }}>
+          <Typography variant="h4" paragraph style={{ marginTop: "16px" }}>
             Back-end
           </Typography>
           <BackEndSkillList></BackEndSkillList>

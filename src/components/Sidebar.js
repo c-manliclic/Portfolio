@@ -49,8 +49,7 @@ const useStyles = makeStyles((theme) => ({
   },
   backdrop: { zIndex: theme.zIndex.drawer + 1, left: "239px" },
   bottomPush: {
-    position: "fixed",
-    bottom: 0,
+    marginTop: "auto",
     textAlign: "center",
     padding: 15,
     opacity: 0.5,

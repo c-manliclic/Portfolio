@@ -27,7 +27,7 @@ export default function Home() {
       </Helmet>
 
       <Container className={classes.container}>
-        <Anime opacity={[0, 1]} translateY={"1em"} delay={(e, i) => i * 1000}>
+        <Anime opacity={[0, 1]} translateY={"2em"} delay={(e, i) => i * 1000}>
           <Typography variant="h1" paragraph>
             Hi, I'm Colin!
           </Typography>

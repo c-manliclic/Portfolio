@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
 const SkillCard = ({ skillName, yearsOfExperience }) => {
   const classes = useStyles();
   return (
-    <Grid item>
+    <Grid item xs={12} md={12} lg={6}>
       <Card variant="outlined" className={classes.card}>
         <CardContent>
           <Typography variant="h5" color="textPrimary">
@@ -32,7 +32,7 @@ export const generateSkillCards = (skills) => {
       direction="row"
       justifyContent="flex-start"
       alignItems="stretch"
-      spacing={1}
+      spacing={3}
       style={{ marginBottom: "20px" }}
     >
       {skills.map((skill, index) => (
