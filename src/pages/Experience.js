@@ -59,8 +59,8 @@ const EducationExperienceList = () => {
       ],
     },
     {
-      title: "Pre-Media (Ontario College Certificate)",
-      organization: "Fanshawe College",
+      title: "Pre-Media",
+      organization: "Fanshawe College  (Ontario College Certificate)",
       details: [
         "Developed a solid foundation in skills and knowledge of various media and communication fields",
         "Created and published media projects that effectively tell a story",
