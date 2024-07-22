@@ -40,7 +40,7 @@ const WorkExperienceList = () => {
 const EducationExperienceList = () => {
   const educationExperiences = [
     {
-      title: "Computer Programmer Analyst",
+      title: "Computer Programming and Analysis",
       organization: "Fanshawe College (Ontario College Advanced Diploma)",
       details: [
         "Cumulative GPA: 4.08/4.20; President’s Honour Roll",
@@ -53,9 +53,27 @@ const EducationExperienceList = () => {
       title: "Peer Mentor",
       organization: "Fanshawe College",
       details: [
-        "Mentored students in various CPA courses, including Programming Fundamentals (INFO1214) and Object‑Oriented Programming with C++ (INFO1156)",
+        "Mentored students in various Computer Programming and Analysis courses, including Programming Fundamentals (INFO1214) and Object‑Oriented Programming with C++ (INFO1156)",
         "Facilitated lessons on basic programming concepts and theories, primarily variables, structures, and syntax",
         "Helped students complete projects by collaboratively trouble shooting and facilitating creative problem solving",
+      ],
+    },
+    {
+      title: "Pre-Media (Ontario College Certificate)",
+      organization: "Fanshawe College",
+      details: [
+        "Developed a solid foundation in skills and knowledge of various media and communication fields",
+        "Created and published media projects that effectively tell a story",
+        "Strengthened skills in Adobe Premiere, Adobe After Effects, Adobe Photoshop, and Logic Pro X",
+      ],
+    },
+    {
+      title: "Professional Communication",
+      organization: "Toronto Metropolitan University",
+      details: [
+        "Completed communication‑based courses such as ”Social Media and Text” and ”Promotional Communication and Social Media”",
+        "Produced a social media campaign for Toronto Metropolitan University’s breakfast program",
+        "Learned how to target specific demographics by implementing the modes of persuasion: Ethos, Pathos, Logos",
       ],
     },
   ];

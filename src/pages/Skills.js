@@ -25,8 +25,12 @@ const FrontEndSkillList = () => {
 const BackEndSkillList = () => {
   const backEndSkills = [
     { name: "C#", yearsOfExperience: "4 years of experience" },
-    { name: "ASP.NET", yearsOfExperience: "4 years of experience" },
+    { name: "ASP.Net", yearsOfExperience: "4 years of experience" },
     { name: "SQL", yearsOfExperience: "4 years of experience" },
+    { name: ".Net7", yearsOfExperience: "2 years of experience" },
+    { name: "MVC", yearsOfExperience: "2 years of experience" },
+    { name: "WebForms", yearsOfExperience: "2 years of experience" },
+    { name: "EntityFramework", yearsOfExperience: "2 years of experience" },
     { name: "Azure", yearsOfExperience: "2 years of experience" },
     { name: "Java", yearsOfExperience: "2 years of experience" },
     { name: "C++", yearsOfExperience: "2 years of experience" },
