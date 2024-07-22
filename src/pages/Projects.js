@@ -16,9 +16,9 @@ const ProjectList = () => {
       imageLink: "/assets/images/art.jpg",
       title: "Digital Art (Processing)",
       description:
-        "These are digital art pieces created by me by using the programming tool Processing (similar to Java). I like to explore all types of coding, even creative coding, where the goal is to create something expressive than functional. I upload all my pieces to my personal art Twitter account.",
+        "These are digital art pieces created by me by using the programming tool Processing (similar to Java). I like to explore all types of coding, even creative coding, where the goal is to create something expressive than functional. I upload all my pieces to my personal art X account.",
       type: "Twitter",
-      link: "https://twitter.com/lawyu3",
+      link: "https://x.com/lawyu3",
     },
     {
       imageLink: "/assets/images/expressionTreeEval.jpg",

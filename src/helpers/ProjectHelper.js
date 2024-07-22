@@ -1,6 +1,6 @@
 import { makeStyles } from "@material-ui/core/styles";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import TwitterIcon from "@material-ui/icons/Twitter";
+import XIcon from "@mui/icons-material/X";
 import {
   Card,
   CardActions,
@@ -44,7 +44,7 @@ const ProjectCard = ({ imageLink, title, description, type, link }) => {
           </Typography>
         </CardContent>
         <CardActions>
-          <Tooltip title={type === "Twitter" ? "Twitter" : "Github Repo"}>
+          <Tooltip title={type === "Twitter" ? "X" : "Github Repo"}>
             <IconButton
               size="small"
               color="inherit"
@@ -54,7 +54,7 @@ const ProjectCard = ({ imageLink, title, description, type, link }) => {
               target="_blank"
             >
               {type === "Twitter" ? (
-                <TwitterIcon fontSize="large" />
+                <XIcon fontSize="large" />
               ) : (
                 <GitHubIcon fontSize="large" />
               )}

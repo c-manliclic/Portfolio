@@ -71,7 +71,7 @@ const EducationExperienceList = () => {
       title: "Professional Communication",
       organization: "Toronto Metropolitan University",
       details: [
-        "Completed communication‑based courses such as ”Social Media and Text” and ”Promotional Communication and Social Media”",
+        'Completed communication‑based courses such as "Social Media and Text" and "Promotional Communication and Social Media"',
         "Produced a social media campaign for Toronto Metropolitan University’s breakfast program",
         "Learned how to target specific demographics by implementing the modes of persuasion: Ethos, Pathos, Logos",
       ],
