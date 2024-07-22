@@ -43,7 +43,7 @@ const EducationExperienceList = () => {
       title: "Computer Programming and Analysis",
       organization: "Fanshawe College (Ontario College Advanced Diploma)",
       details: [
-        "Cumulative GPA: 4.08/4.20; President’s Honour Roll",
+        "Cumulative GPA: 4.08; President’s Honour Roll",
         "Acquired skills of networking concepts to develop, deploy, and maintain programs",
         "Achieved proficiency in the domains of object‑oriented programming, client/server architecture, and database development",
         "Awarded Dean's Honour Roll in 2018, 2019, 2020, and 2021",
