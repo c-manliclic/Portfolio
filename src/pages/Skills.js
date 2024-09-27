@@ -14,7 +14,7 @@ const FrontEndSkillList = () => {
   const frontEndSkills = [
     { name: "Javascript", yearsOfExperience: "4 years of experience" },
     { name: "Typescript", yearsOfExperience: "2 years of experience" },
-    { name: "DevExtreme", yearsOfExperience: "2 years of experience" },
+    { name: "DevExpress", yearsOfExperience: "2 years of experience" },
     { name: "jQuery", yearsOfExperience: "1 year of experience" },
     { name: "React", yearsOfExperience: "1 year of experience" },
     { name: "Material UI", yearsOfExperience: "1 year of experience" },
