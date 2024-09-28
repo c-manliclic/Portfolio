@@ -4,6 +4,7 @@
   "private": false,
   "homepage": "https://c-manliclic.github.io/",
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/traverse": ">=7.23.2",
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",
