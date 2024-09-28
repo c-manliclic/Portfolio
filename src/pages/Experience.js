@@ -40,7 +40,7 @@ const WorkExperienceList = () => {
 const EducationExperienceList = () => {
   const educationExperiences = [
     {
-      title: "Computer Programming and Analysis",
+      title: "Computer Programmer Analyst",
       organization: "Fanshawe College (Ontario College Advanced Diploma)",
       details: [
         "Cumulative GPA: 4.08; President’s Honour Roll",
@@ -53,7 +53,7 @@ const EducationExperienceList = () => {
       title: "Peer Mentor",
       organization: "Fanshawe College",
       details: [
-        "Mentored students in various Computer Programming and Analysis courses, including Programming Fundamentals (INFO1214) and Object‑Oriented Programming with C++ (INFO1156)",
+        "Mentored students in various Computer Programmer Analyst courses, including Programming Fundamentals (INFO1214) and Object‑Oriented Programming with C++ (INFO1156)",
         "Facilitated lessons on basic programming concepts and theories, primarily variables, structures, and syntax",
         "Helped students complete projects by collaboratively trouble shooting and facilitating creative problem solving",
       ],
